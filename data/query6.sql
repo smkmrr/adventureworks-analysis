@@ -1,4 +1,3 @@
-/* query6.sql */
 SELECT 
     st.Name AS RegionName,
     SUM(soh.SubTotal) AS TotalSales,

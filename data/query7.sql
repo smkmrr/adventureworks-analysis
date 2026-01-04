@@ -1,4 +1,3 @@
-/* query7.sql */
 SELECT 
     st.Name AS RegionName,
     CASE 

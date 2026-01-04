@@ -1,4 +1,3 @@
-/* query2.sql */
 SELECT 
     pc.Name AS CategoryName,
     SUM(sod.LineTotal) AS TotalSales

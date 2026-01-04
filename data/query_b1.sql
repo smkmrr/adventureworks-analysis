@@ -1,4 +1,3 @@
-/* query_b1.sql */
 SELECT 
     p.Name AS ProductName,
     pc.Name AS CategoryName,
@@ -15,4 +14,4 @@ JOIN Production.ProductSubcategory AS ps
 JOIN Production.ProductCategory AS pc 
     ON ps.ProductCategoryID = pc.ProductCategoryID
 GROUP BY p.Name, pc.Name, ps.Name
-HAVING SUM(sod.LineTotal) > 0; -- Only show products that have actually sold
+HAVING SUM(sod.LineTotal) > 0; 

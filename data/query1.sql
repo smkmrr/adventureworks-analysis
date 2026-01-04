@@ -1,4 +1,3 @@
-/* q1_products_per_category.sql */
 SELECT 
     pc.Name AS CategoryName,
     COUNT(p.ProductID) AS ProductCount

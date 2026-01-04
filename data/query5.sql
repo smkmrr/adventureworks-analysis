@@ -1,4 +1,3 @@
-/* query5.sql */
 SELECT TOP 10
     p.Name AS ProductName,
     SUM(sod.LineTotal) AS TotalSales
