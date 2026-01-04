@@ -1,8 +1,7 @@
-/* query4.sql */
 SELECT 
     YEAR(OrderDate) AS OrderYear,
     SUM(SubTotal) AS TotalSales,
-    COUNT(SalesOrderID) AS TotalOrders
+    COUNT(SalesOrderID) AS OrderCount
 FROM Sales.SalesOrderHeader
 GROUP BY YEAR(OrderDate)
-ORDER BY OrderYear;
+ORDER BY YEAR(OrderDate);
