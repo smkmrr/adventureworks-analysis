@@ -4,4 +4,3 @@ sqlalchemy
 pyodbc
 jupyter
 seaborn
-
